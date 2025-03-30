@@ -1,6 +1,6 @@
 {
-  "name": "@stripe/stripe-terminal-react-native",
-  "version": "0.0.1-beta.23",
+  "name": "@hoangducnhuan/stripe-terminal-react-native",
+  "version": "0.0.1-beta.24",
   "description": "Stripe Terminal React Native SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,7 +40,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/stripe/stripe-terminal-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stripe/stripe-terminal-react-native.git"
+  },
   "author": "Stripe",
   "license": "MIT",
   "bugs": {
@@ -207,5 +210,9 @@
         "react-test-renderer"
       ]
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
   }
 }

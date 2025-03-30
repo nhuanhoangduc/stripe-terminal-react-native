@@ -17,7 +17,7 @@ import {
   type StripeError,
   CommonError,
   type AllowRedisplay,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 import List from '../components/List';
 import ListItem from '../components/ListItem';

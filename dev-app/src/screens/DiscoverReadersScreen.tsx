@@ -20,7 +20,7 @@ import {
   useStripeTerminal,
   type Location,
   type Reader,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import type { NavigationAction } from '@react-navigation/routers';
 import type {
   ConnectBluetoothReaderParams,
@@ -30,7 +30,7 @@ import type {
   ConnectUsbReaderParams,
   ConnectReaderParams,
   StripeError,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 import {
   useNavigation,

@@ -3,7 +3,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import {
   StripeTerminalProvider,
   type Location,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import App from './App';
 import { AppContext, api } from './AppContext';
 import type { IAccount } from './types';

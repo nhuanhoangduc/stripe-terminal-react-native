@@ -8,7 +8,7 @@ import { ActivityIndicator, StyleSheet, ScrollView } from 'react-native';
 import {
   type Location,
   useStripeTerminal,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 import ListItem from '../components/ListItem';
 import List from '../components/List';

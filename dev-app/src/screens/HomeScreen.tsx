@@ -25,7 +25,7 @@ import {
   type Reader,
   useStripeTerminal,
   getSdkVersion,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import AlertDialog from '../components/AlertDialog';
 import type { RouteParamList } from '../App';

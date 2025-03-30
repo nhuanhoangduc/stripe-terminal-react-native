@@ -6,7 +6,7 @@ import ListItem from '../components/ListItem';
 import {
   OfflineStatus,
   useStripeTerminal,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 
 export default function DatabaseScreen() {
   const [offlinePaymentStatus, setOfflinePaymentStatus] =

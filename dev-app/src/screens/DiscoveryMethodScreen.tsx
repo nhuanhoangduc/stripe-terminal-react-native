@@ -5,7 +5,7 @@ import {
 } from '@react-navigation/core';
 import React from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-import type { Reader } from '@stripe/stripe-terminal-react-native';
+import type { Reader } from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 import ListItem from '../components/ListItem';
 

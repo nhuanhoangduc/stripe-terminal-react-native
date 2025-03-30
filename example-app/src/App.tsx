@@ -26,7 +26,7 @@ import {
   Location,
   useStripeTerminal,
   requestNeededAndroidPermissions,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { Alert, LogBox } from 'react-native';
 import DatabaseScreen from './screens/DatabaseScreen';
 

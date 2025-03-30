@@ -31,9 +31,9 @@ To connect to a reader, your backend needs to give the SDK permission to use the
 The [React Native SDK](https://github.com/stripe/stripe-terminal-react-native) is open source and fully documented. Internally, it makes use of native iOS and Android SDKs. Install the SDK by running:
 
 ```sh
-yarn add @stripe/stripe-terminal-react-native
+yarn add @hoangducnhuan/stripe-terminal-react-native
 or
-npm install @stripe/stripe-terminal-react-native
+npm install @hoangducnhuan/stripe-terminal-react-native
 ```
 
 **2c. Configure your app on iOS**

@@ -33,7 +33,7 @@ Updating to a newer version of the SDK? See our [release notes](https://github.c
 ### Android
 
 - Android API level 26 and above
-  * Note that attempting to override minSdkVersion to decrease the minimum supported API level will not work due to internal runtime API level validation.
+  - Note that attempting to override minSdkVersion to decrease the minimum supported API level will not work due to internal runtime API level validation.
 - compileSdkVersion = 33
 - targetSdkVersion = 31
 
@@ -56,13 +56,13 @@ To build the example app from source, you'll need to:
 ## Installation
 
 ```sh
-yarn add @stripe/stripe-terminal-react-native
+yarn add @hoangducnhuan/stripe-terminal-react-native
 ```
 
 or
 
 ```sh
-npm install @stripe/stripe-terminal-react-native
+npm install @hoangducnhuan/stripe-terminal-react-native
 ```
 
 ## Example code
@@ -78,7 +78,7 @@ Stripe Terminal SDK will fetch it when it's needed.
 
 ```tsx
 // Root.tsx
-import { StripeTerminalProvider } from '@stripe/stripe-terminal-react-native';
+import { StripeTerminalProvider } from '@hoangducnhuan/stripe-terminal-react-native';
 
 function Root() {
   const fetchTokenProvider = async () => {
@@ -127,7 +127,7 @@ Additionally, you have access to the internal state of SDK that contains informa
 ```tsx
 // PaymentScreen.tsx
 
-import { useStripeTerminal } from '@stripe/stripe-terminal-react-native';
+import { useStripeTerminal } from '@hoangducnhuan/stripe-terminal-react-native';
 
 export default function PaymentScreen() {
   const { discoverReaders, connectedReader, discoveredReaders } =
@@ -166,7 +166,7 @@ import {
   WithStripeTerminalProps,
   CHANGE_CONNECTION_STATUS,
   Reader,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 
 class PaymentScreen extends React.Component {
   componentDidMount() {

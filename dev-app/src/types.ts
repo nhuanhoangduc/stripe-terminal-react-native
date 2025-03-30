@@ -1,6 +1,6 @@
 import type { Stripe } from 'stripe';
 import type { Api as IApi } from './api/api';
-import type { Location } from '@stripe/stripe-terminal-react-native';
+import type { Location } from '@hoangducnhuan/stripe-terminal-react-native';
 
 export type IAccount = Stripe.Account & { secretKey: string };
 

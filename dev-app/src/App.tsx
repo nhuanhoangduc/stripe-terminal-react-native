@@ -43,7 +43,7 @@ import {
   type Location,
   useStripeTerminal,
   requestNeededAndroidPermissions,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { Alert, LogBox } from 'react-native';
 
 import { AppContext } from './AppContext';

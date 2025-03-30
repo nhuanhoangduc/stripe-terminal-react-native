@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import type { Location } from '@stripe/stripe-terminal-react-native';
+import type { Location } from '@hoangducnhuan/stripe-terminal-react-native';
 
 import { useNavigation } from '@react-navigation/core';
 import {

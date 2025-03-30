@@ -1952,9 +1952,9 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@stripe/stripe-terminal-react-native@^0.0.1-beta.21":
+"@hoangducnhuan/stripe-terminal-react-native@^0.0.1-beta.21":
   version "0.0.1-beta.22"
-  resolved "https://registry.npmjs.org/@stripe/stripe-terminal-react-native/-/stripe-terminal-react-native-0.0.1-beta.22.tgz#e9a0d16f68808afac9b1c1922fb973d0b6b4792b"
+  resolved "https://registry.npmjs.org/@hoangducnhuan/stripe-terminal-react-native/-/stripe-terminal-react-native-0.0.1-beta.22.tgz#e9a0d16f68808afac9b1c1922fb973d0b6b4792b"
   integrity sha512-GSOC76/teR8v8ZHvgkSb+2YAlgIk3SM0/xhsSayIxg1H20q+1EW36Hr1cQAqkkt+7xWkub2RDR7v2vE4f7pzAA==
   dependencies:
     "@testing-library/react-native" "^12.4.0"

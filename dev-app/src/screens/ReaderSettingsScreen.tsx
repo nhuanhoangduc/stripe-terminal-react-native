@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Alert, ScrollView, StyleSheet, Switch } from 'react-native';
 import List from '../components/List';
 import ListItem from '../components/ListItem';
-import { useStripeTerminal } from '@stripe/stripe-terminal-react-native';
+import { useStripeTerminal } from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 
 export default function ReaderSettingsScreen() {

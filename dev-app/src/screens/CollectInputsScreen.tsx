@@ -8,7 +8,7 @@ import {
   SelectionButtonStyle,
   ToggleValue,
   useStripeTerminal,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 import { colors } from '../colors';
 import { LogContext } from '../components/LogContext';
 import { useNavigation, type NavigationProp } from '@react-navigation/native';

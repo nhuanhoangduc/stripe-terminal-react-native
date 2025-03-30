@@ -3,7 +3,7 @@ import {
   type Reader,
   useStripeTerminal,
   type Location,
-} from '@stripe/stripe-terminal-react-native';
+} from '@hoangducnhuan/stripe-terminal-react-native';
 
 import { useNavigation } from '@react-navigation/core';
 import {
